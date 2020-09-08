@@ -27,6 +27,7 @@ app.use(bodyParser.json());
 
 // routes
 app.use("/markers", require('./routes/markers'));
+app.use("/zona", require('./routes/zona'));
 
 //public
 
